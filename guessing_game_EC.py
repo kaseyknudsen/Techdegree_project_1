@@ -1,9 +1,9 @@
 import random
 
+scores = []
 
 def start_game():
-
-    scores = []
+    
 
     random_number = random.randint(1, 10)
     attempt_count = 0
